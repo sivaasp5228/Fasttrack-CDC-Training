@@ -13,16 +13,13 @@ import java.util.Scanner;
 // Grade is 6 if only one condition is met.
 // Grade is 5 if none of three conditions are met.
 // Write a program display the grade of the rides, given the values of hurl factor, spin factor & speed factor of the ride. 
-
 //I/P Format:Input consists 3 integers Hurl,Spin &SpeedFactor of the ride,separated by a space.
-
 //O/P Format: Output should display the grade of the ride depending on Conditions.
-
 //Sample Input: 
 //51 89 150
-
 //Sample Output:
 //10
+
 class AquaticaCarnival {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
