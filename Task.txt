@@ -1,0 +1,24 @@
+Tree Based Questions :
+
+    1. Find the Height of Binary Tree
+    2. Count leaf nodes
+    3. Count total nodes
+    4. Find max value in binary Tree
+    5. Print Inorder traversal
+    6. Print Preorder traversal
+    7. Print postorder traversal
+    8. Print level order traversal
+    9. Diameter of binary Tree
+    10. Check whether two trees are identical
+    11. Search element in BST
+    12. Insert to BST
+    13. Delete a node from BST
+    14. Fin min and max in BST
+    15. LCA in Binary tree
+    16. LCA in BST
+    17. Check whether tree is balanced|
+    18. Find the height of BST
+    19. Vaidate whether a binary tree is a valid BST
+    20. Convert sorter array to the balanced BST 
+
+=============================================================

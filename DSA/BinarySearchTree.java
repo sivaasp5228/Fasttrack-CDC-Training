@@ -71,6 +71,21 @@ public class BinarySearchTree {
         System.out.print(root.data + " ");
         Inorder(root.right);
     }
+    // LCA
+    static Node lca(Node  root, int n1, int n2) {
+        if(root == null)
+            return null;
+        if(root.data === n1 || root.data == n2)
+            return root;
+        Node left = lca(root.left, n1, n2);
+        Node right = lca(root.right, n1, n2);
+
+        if(left != null && right != null)
+            return root;
+        if(left != null)
+            return left;
+        return right;
+    }
 
     public static void main(String[] args) {
         // Create
@@ -100,6 +115,10 @@ public class BinarySearchTree {
 
         root = delete(root, 30);
         System.out.print("\nBST after delete 30 : ");
+        Inorder(root);
+
+        root = delete(root, 50);
+        System.out.print("\nBST after delete 50 : ");
         Inorder(root);
     }
 }
