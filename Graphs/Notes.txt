@@ -79,4 +79,6 @@ DFS(Depth First Search):
         Project(0) |        ----> Arrays(3)
                     ----> Python(2)
                             ----> Dictionaries(4)
-    
+
+BFS( Breadth First Search ):
+    • BFS explores level by level 
